@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/styles/main.css">
+   
+    <title>Calendar</title>
+</head>
+<body>
+    <div class="centered-container">
+        <h1 class="title">Calendar</h1>
+
+        <div class="list-container">
+            <ul class="todo-list">
+                <!-- Your todo items will go here -->
+            </ul>
+        </div>
+
+        <form method="POST" action="/addTodo" class="add-form">
+            <input type="text" placeholder="Enter your to-do" name="inputTodo" class="input-todo">
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+
+    <script src="/js/client.js"></script>
+</body>
+</html>
